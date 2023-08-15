@@ -1,0 +1,39 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  },
+  "quanao": [
+    {
+      "id": "a3",
+      "name": "ccc",
+      "loai": "Fiat",
+      "price": "333"
+    },
+    {
+      "id": "a4",
+      "name": "ddd",
+      "loai": "Áo Phao",
+      "price": "444"
+    },
+    {
+      "id": "a5",
+      "name": "Áo nam",
+      "loai": "Áo Phao",
+      "price": "666"
+    }
+  ]
+}
