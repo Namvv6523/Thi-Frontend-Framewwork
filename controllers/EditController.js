@@ -20,22 +20,16 @@ window.EditController = function ($scope, $routeParams, $http) {
     if (!$scope.inputValue || !$scope.inputValue.id) {
       $scope.id = "Không được để trống!";
       flag = false;
-    } else {
-      $scope.id = "";
-    }
+    } 
 
     if (!$scope.inputValue || !$scope.inputValue.name) {
       $scope.name = "Không được để trống!";
       flag = false;
-    } else {
-      $scope.name = "";
-    }
+    } 
 
     if (!$scope.inputValue || !$scope.inputValue.price) {
       $scope.price = "Không được để trống!";
       flag = false;
-    } else {
-      $scope.price = "";
     }
 
     if (flag) {
